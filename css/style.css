@@ -144,13 +144,14 @@ body {
 
 }
 
+/* О нас */
 .about {
     background-color: #1d1d1d;
     height: 1129px;
     padding-top: 128px;
     padding-bottom: 271px;
-    background: url(/img/buildings-white.png) center bottom repeat-x,
-        url(/img/buildings-black.png) center bottom repeat-x,
+    background: url(/img/buildings-white.png) center 101% repeat-x,
+        url(/img/buildings-black.png) center 101% repeat-x,
         #1d1d1d;
     /* background-size: contain, contain; */
 
@@ -196,155 +197,79 @@ body {
 }
 
 
+/* Команда */
 
+.team {
+    height: 745px;
+}
 
+.block-head {
+    text-align: center;
+}
 
-/*
-width: 1200px;
-height: 745px;
-background-color: #ffffff;
+.block-title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #1d1e1f;
+    margin: 0;
+    padding-top: 138px;
+    margin-bottom: 13px;
+}
 
-font-family: 'Helvetica Neue Pro - Lt';
-font-size: 34px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #1d1e1f;
+.block-text {
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #898888;
+    margin: 0;
+}
 
+.team-inner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 127px;
+}
 
-font-family: Merriweather;
-font-size: 16px;
-line-height: 26px;
-font-weight: 300;
-font-style: italic;
-letter-spacing: 0.02em;
-color: #898888;
+.team-item {
+    text-align: center;
+}
 
+.team-item-img {
+    margin-bottom: 29px;
+}
 
-font-family: 'Helvetica Neue Pro';
-font-size: 24px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #464646;
+.team-item-title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #464646;
+    margin: 0;
+    margin-bottom: 7px;
+}
 
-font-family: 'Helvetica Neue Pro';
-font-size: 13px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #b3b3b3;
+.team-item-text {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #b3b3b3;
+    margin: 0;
+    margin-bottom: 21px;
+}
 
-width: 21px;
-height: 18px;
-background-color: #e4e4e4;
-width: 21px;
-height: 20px;
-background-color: #e4e4e4;
+.team-icon-box a {
+    font-size: 20px;
+    color: #e4e4e4;
+    transition: 0.2s;
+}
 
-*/
+.team-icon-box a:hover {
+    color: #949494;
+}
 
-
-/*
-width: 1200px;
-height: 835px;
-
-font-family: 'Helvetica Neue Pro - Lt';
-font-size: 34px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #ffffff;
-
-font-family: Merriweather;
-font-size: 16px;
-line-height: 26px;
-font-weight: 300;
-font-style: italic;
-letter-spacing: 0.02em;
-color: #777777;
-
-
-font-family: 'Helvetica Neue Pro - Lt';
-font-size: 26px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #ffffff;
-
-font-family: 'Helvetica Neue Pro - Lt';
-font-size: 18px;
-line-height: 23px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #383838;
-
-
-*/
-
-
-/*
-width: 1200px;
-height: 1087px;
-
-font-family: 'Helvetica Neue Pro - Lt';
-font-size: 34px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #1d1e1f;
-
-
-font-family: Merriweather;
-font-size: 16px;
-line-height: 26px;
-font-weight: 300;
-font-style: italic;
-letter-spacing: 0.02em;
-color: #898888;
-
-font-family: 'Helvetica Neue Pro - Lt';
-font-size: 12px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #898888;
-
-
-width: 770px;
-height: 52px;
-border: 1px solid #999999;
-
-font-family: 'Helvetica Neue Pro - Lt';
-font-size: 15px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #898888;
-
-
-width: 770px;
-height: 195px;
-border: 1px solid #999999;
-
-width: 770px;
-height: 195px;
-border: 1px solid #999999;
-
-
-
-
-width: 770px;
-height: 52px;
-background-color: #161616;
-
-
-font-family: 'Helvetica Neue Pro';
-font-size: 14px;
-line-height: 26px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color: #3b3b3b;
-
-
-*/
+/* Услуги */
