@@ -276,6 +276,7 @@ body {
 
 .provide {
     background-color: #181818;
+    padding-bottom: 155px;
 
 }
 
@@ -292,14 +293,28 @@ body {
 
 .provide-inner {
     display: flex;
+    justify-content: space-between;
+    padding-top: 138px;
+    fw400
 }
 
 .provide-item {
     text-align: center;
+    max-width: 335px;
 }
 
 .provide-item i {
     color: #fff;
+    font-size: 63px;
+    width: 172px;
+    height: 172px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 43px;
+
 }
 
 .icon-chart-line-1 {}
@@ -311,6 +326,7 @@ body {
     letter-spacing: 0.02em;
     color: #fff;
     margin: 0;
+    margin-bottom: 31px;
 }
 
 .provide-item-text {
