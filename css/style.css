@@ -273,3 +273,55 @@ body {
 }
 
 /* Услуги */
+
+.provide {
+    background-color: #181818;
+
+}
+
+.block-head {}
+
+.inverse .block-title {
+    padding-top: 176px;
+    color: #ffffff;
+}
+
+.block-text {
+    color: #777777;
+}
+
+.provide-inner {
+    display: flex;
+}
+
+.provide-item {
+    text-align: center;
+}
+
+.provide-item i {
+    color: #fff;
+}
+
+.icon-chart-line-1 {}
+
+.provide-item-title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin: 0;
+}
+
+.provide-item-text {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #383838;
+    margin: 0;
+}
+
+.icon-heart {}
+
+.icon-upload-cloud-outline {}
