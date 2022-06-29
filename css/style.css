@@ -280,7 +280,6 @@ body {
 
 }
 
-.block-head {}
 
 .inverse .block-title {
     padding-top: 176px;
@@ -317,7 +316,7 @@ body {
 
 }
 
-.icon-chart-line-1 {}
+
 
 .provide-item-title {
     font-family: "HelveticaNeueLTProLt", sans-serif;
@@ -337,7 +336,3 @@ body {
     color: #383838;
     margin: 0;
 }
-
-.icon-heart {}
-
-.icon-upload-cloud-outline {}
