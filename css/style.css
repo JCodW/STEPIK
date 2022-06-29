@@ -336,3 +336,141 @@ body {
     color: #383838;
     margin: 0;
 }
+
+
+
+.contact .block-head .block-title {
+    padding-top: 95px;
+}
+
+.block-text {}
+
+.contact-inner {}
+
+.contact-icon-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 570px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+.contact-item {
+    text-align: center;
+    width: 130px;
+}
+
+.contact-item i {
+    color: #323232;
+    font-size: 21px;
+
+}
+
+.contact-form {
+    padding-top: 153px;
+    display: flex;
+    flex-direction: column;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.contact-form input {
+    text-align: center;
+    height: 52px;
+    padding: 20px;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+}
+
+.icon-phone {}
+
+.contact-text {
+    margin-bottom: 12px;
+}
+
+.contact-text a {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: #898888;
+    transition: 0.3s;
+}
+
+.contact-text a:hover {
+    color: #4b4b4b;
+    text-decoration: underline;
+}
+
+.icon-location {}
+
+.icon-email {}
+
+.contact-name {
+    margin-bottom: 20px;
+}
+
+.contact-email {
+    margin-bottom: 20px;
+}
+
+.contact-number {
+    margin-bottom: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-apperance: texfield;
+}
+
+
+
+.contact-textarea {
+    padding: 22px;
+    margin-bottom: 21px;
+    height: 195px;
+    resize: none;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+}
+
+.contact-form .contact-button {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #161616;
+    font-family: "HelveticaNeueLTProMd", sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+}
+
+.footer {
+    padding-top: 154px;
+}
+
+.footer-text {
+    margin-bottom: 29px;
+    text-align: center;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #3b3b3b;
+}
