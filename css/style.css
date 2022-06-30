@@ -70,6 +70,10 @@ body {
 
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .menu-item a {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 13px;
@@ -107,7 +111,8 @@ body {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #1d1e1f;
-    margin: 207px auto 4px;
+    padding-top: 207px;
+    margin: 0px auto 4px;
 
 }
 
@@ -150,8 +155,8 @@ body {
     height: 1129px;
     padding-top: 128px;
     padding-bottom: 271px;
-    background: url(/img/buildings-white.png) center 101% repeat-x,
-        url(/img/buildings-black.png) center 101% repeat-x,
+    background: url(../img/buildings-white.png) center 101% repeat-x,
+        url(../img/buildings-black.png) center 101% repeat-x,
         #1d1d1d;
     /* background-size: contain, contain; */
 
@@ -277,7 +282,6 @@ body {
 .provide {
     background-color: #181818;
     padding-bottom: 155px;
-
 }
 
 
@@ -337,15 +341,10 @@ body {
     margin: 0;
 }
 
-
-
 .contact .block-head .block-title {
     padding-top: 95px;
 }
 
-.block-text {}
-
-.contact-inner {}
 
 .contact-icon-box {
     display: flex;
@@ -363,7 +362,6 @@ body {
 .contact-item i {
     color: #323232;
     font-size: 21px;
-
 }
 
 .contact-form {
@@ -386,7 +384,6 @@ body {
     border: 1px solid #999999;
 }
 
-.icon-phone {}
 
 .contact-text {
     margin-bottom: 12px;
@@ -406,10 +403,6 @@ body {
     color: #4b4b4b;
     text-decoration: underline;
 }
-
-.icon-location {}
-
-.icon-email {}
 
 .contact-name {
     margin-bottom: 20px;
@@ -431,7 +424,6 @@ input::-webkit-inner-spin-button {
 input[type='number'] {
     -moz-apperance: texfield;
 }
-
 
 
 .contact-textarea {
@@ -473,4 +465,142 @@ input[type='number'] {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #3b3b3b;
+}
+
+
+/* Media iPad */
+@media screen and (max-width: 769px) {
+    .container {
+        width: 768px;
+    }
+
+    .about {
+        height: auto;
+        padding-bottom: 200px;
+    }
+
+    .about-inner {
+        grid-gap: 30px;
+        grid-template-columns: max-content;
+    }
+
+    .provide {
+        padding-bottom: 100px;
+    }
+
+    .team .block-title,
+    .provide .block-title {
+        padding-top: 100px;
+    }
+
+    .provide-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .provide-item {
+        min-width: 300px;
+        margin: 0 30px 40px;
+
+    }
+
+    .contact-form {
+        padding-top: 100px;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+}
+
+
+/* Media iPhoneX */
+@media screen and (max-width: 376px) {
+    .container {
+        width: 375px;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 0 -15px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+
+    .menu-burger {
+        cursor: pointer;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .menu-burger:after {
+        content: '';
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        top: -10px;
+    }
+
+    .menu-burger:before {
+        content: '';
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .header-title {
+        padding-top: 100px;
+        margin-bottom: 30px;
+
+    }
+
+    .header-button {
+        margin-bottom: 100px;
+    }
+
+
+    .about-item {
+        max-width: 340px;
+    }
+
+    .team {
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .team-inner {
+        padding-top: 100px;
+        flex-wrap: wrap;
+
+    }
+
+    .team-item {
+        width: 340px;
+    }
+
+    .provide-inner {
+        padding-top: 100px;
+    }
+
+
+
 }
