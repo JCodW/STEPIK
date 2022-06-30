@@ -10,13 +10,13 @@ $(document).ready(function () {
     );
     $('nav a[href^="#"]').parent().removeClass("active");
     $(this).parent().addClass("active");
-    $(".menu__mobile .menu").toggle(500);
-    $(".menu__burger").toggleClass("close");
+    $(".menu-mobile .menu").toggle(500);
+    $(".menu-burger").toggleClass("close");
     return false;
   });
   /* Мобильное меню */
-  $(".menu__burger").click(function () {
-    $(".menu__mobile .menu").toggle(500);
+  $(".menu-burger").click(function () {
+    $(".menu-mobile .menu").toggle(500);
     $(this).toggleClass("close");
   });
 });
