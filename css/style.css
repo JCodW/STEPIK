@@ -506,6 +506,11 @@ input[type='number'] {
 
     .menu-mobile {
         display: flex;
+        flex-direction: column;
+    }
+
+    .menu-inner {
+        display: flex;
         justify-content: space-between;
         align-items: center;
     }
@@ -516,9 +521,17 @@ input[type='number'] {
 
     .menu {
         display: none;
+        text-align: center;
     }
 
+    .menu li {
+        padding: 15px 0;
+    }
 
+    .menu a {
+        margin 0;
+
+    }
 
     .menu-burger {
         cursor: pointer;
